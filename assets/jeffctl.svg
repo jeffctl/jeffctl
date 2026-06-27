@@ -1,0 +1,144 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">jeffctl terminal profile</title>
+  <desc id="desc">Catppuccin Mocha terminal and Vim styled profile card for Jeff, Lead Information Security Engineer.</desc>
+
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cba6f7"/>
+      <stop offset="0.35" stop-color="#89b4fa"/>
+      <stop offset="0.7" stop-color="#94e2d5"/>
+      <stop offset="1" stop-color="#f38ba8"/>
+    </linearGradient>
+
+```
+<linearGradient id="titleGrad" x1="150" y1="0" x2="930" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0" stop-color="#89b4fa"/>
+  <stop offset="0.4" stop-color="#cba6f7"/>
+  <stop offset="0.75" stop-color="#94e2d5"/>
+  <stop offset="1" stop-color="#f9e2af"/>
+</linearGradient>
+
+<filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feColorMatrix in="blur" type="matrix"
+    values="0 0 0 0 0.796
+            0 0 0 0 0.651
+            0 0 0 0 0.969
+            0 0 0 0.35 0" result="glow"/>
+  <feMerge>
+    <feMergeNode in="glow"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+<style>
+  .mono {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  .fg { fill: #cdd6f4; }
+  .muted { fill: #a6adc8; }
+  .subtle { fill: #6c7086; }
+  .blue { fill: #89b4fa; }
+  .mauve { fill: #cba6f7; }
+  .green { fill: #a6e3a1; }
+  .yellow { fill: #f9e2af; }
+  .peach { fill: #fab387; }
+  .red { fill: #f38ba8; }
+  .teal { fill: #94e2d5; }
+  .bold { font-weight: 700; }
+</style>
+```
+
+  </defs>
+
+  <rect width="1200" height="675" rx="0" fill="#11111b"/>
+
+  <rect x="34" y="32" width="1132" height="611" rx="24" fill="#1e1e2e" stroke="url(#border)" stroke-width="2"/>
+
+  <rect x="54" y="52" width="1092" height="48" rx="14" fill="#181825"/>
+  <circle cx="84" cy="76" r="7" fill="#f38ba8"/>
+  <circle cx="108" cy="76" r="7" fill="#f9e2af"/>
+  <circle cx="132" cy="76" r="7" fill="#a6e3a1"/>
+
+  <text x="600" y="82" text-anchor="middle" class="mono muted" font-size="15">
+    tmux:jeffctl  |  nvim ~/.profile/whoami.lua
+  </text>
+
+  <rect x="54" y="116" width="1092" height="465" rx="14" fill="#181825" stroke="#313244" stroke-width="1.5"/>
+
+  <rect x="54" y="116" width="56" height="465" rx="14" fill="#11111b"/>
+  <rect x="96" y="116" width="14" height="465" fill="#11111b"/>
+
+  <text class="mono subtle" font-size="16">
+    <tspan x="78" y="152">1</tspan>
+    <tspan x="78" y="184">2</tspan>
+    <tspan x="78" y="216">3</tspan>
+    <tspan x="78" y="248">4</tspan>
+    <tspan x="78" y="280">5</tspan>
+    <tspan x="78" y="312">6</tspan>
+    <tspan x="78" y="344">7</tspan>
+    <tspan x="78" y="376">8</tspan>
+    <tspan x="78" y="408">9</tspan>
+    <tspan x="70" y="440">10</tspan>
+    <tspan x="70" y="472">11</tspan>
+    <tspan x="70" y="504">12</tspan>
+    <tspan x="70" y="536">13</tspan>
+  </text>
+
+<text x="132" y="156" class="mono mauve bold" font-size="20">local</text> <text x="198" y="156" class="mono fg" font-size="20">whoami = {</text>
+
+<text x="162" y="190" class="mono yellow" font-size="20">name</text> <text x="292" y="190" class="mono fg" font-size="20">=</text> <text x="322" y="190" class="mono green" font-size="20">"jeffctl"</text> <text x="425" y="190" class="mono fg" font-size="20">,</text>
+
+<text x="162" y="224" class="mono yellow" font-size="20">role</text> <text x="292" y="224" class="mono fg" font-size="20">=</text> <text x="322" y="224" class="mono green" font-size="20">"Lead Information Security Engineer"</text> <text x="720" y="224" class="mono fg" font-size="20">,</text>
+
+<text x="162" y="258" class="mono yellow" font-size="20">lane</text> <text x="292" y="258" class="mono fg" font-size="20">=</text> <text x="322" y="258" class="mono green" font-size="20">"SOC operations"</text> <text x="515" y="258" class="mono fg" font-size="20">,</text>
+
+<text x="162" y="292" class="mono yellow" font-size="20">origin</text> <text x="292" y="292" class="mono fg" font-size="20">=</text> <text x="322" y="292" class="mono green" font-size="20">"infantry leadership"</text> <text x="584" y="292" class="mono fg" font-size="20">,</text>
+
+<text x="162" y="326" class="mono yellow" font-size="20">method</text> <text x="292" y="326" class="mono fg" font-size="20">=</text> <text x="322" y="326" class="mono green" font-size="20">"evidence first, data driven"</text> <text x="670" y="326" class="mono fg" font-size="20">,</text>
+
+<text x="162" y="360" class="mono yellow" font-size="20">builds</text> <text x="292" y="360" class="mono fg" font-size="20">=</text> <text x="322" y="360" class="mono fg" font-size="20">{</text> <text x="350" y="360" class="mono peach" font-size="20">"automation"</text> <text x="492" y="360" class="mono fg" font-size="20">,</text> <text x="522" y="360" class="mono peach" font-size="20">"runbooks"</text> <text x="645" y="360" class="mono fg" font-size="20">,</text> <text x="675" y="360" class="mono peach" font-size="20">"analyst tools"</text> <text x="850" y="360" class="mono fg" font-size="20">},</text>
+
+<text x="162" y="394" class="mono yellow" font-size="20">rule</text> <text x="292" y="394" class="mono fg" font-size="20">=</text> <text x="322" y="394" class="mono red" font-size="20">"the easy button breaks"</text> <text x="605" y="394" class="mono fg" font-size="20">,</text>
+
+<text x="162" y="428" class="mono yellow" font-size="20">theme</text> <text x="292" y="428" class="mono fg" font-size="20">=</text> <text x="322" y="428" class="mono mauve" font-size="20">"catppuccin mocha"</text> <text x="555" y="428" class="mono fg" font-size="20">,</text>
+
+<text x="132" y="462" class="mono fg" font-size="20">}</text>
+
+<text x="132" y="520" class="mono blue" font-size="18">:write</text> <text x="205" y="520" class="mono muted" font-size="18">evidence.log</text> <text x="340" y="520" class="mono blue" font-size="18">|</text> <text x="365" y="520" class="mono blue" font-size="18">:make</text> <text x="428" y="520" class="mono muted" font-size="18">repeatable-workflow</text> <text x="665" y="520" class="mono blue" font-size="18">|</text> <text x="690" y="520" class="mono blue" font-size="18">:set</text> <text x="748" y="520" class="mono muted" font-size="18">noeasybutton</text>
+
+  <g filter="url(#softGlow)">
+    <text class="mono bold" font-size="21">
+      <tspan x="760" y="152" fill="#89b4fa">     ██╗███████╗███████╗███████╗ </tspan>
+      <tspan x="760" y="181" fill="#89b4fa">     ██║██╔════╝██╔════╝██╔════╝ </tspan>
+      <tspan x="760" y="210" fill="#89b4fa">     ██║█████╗  █████╗  █████╗   </tspan>
+      <tspan x="760" y="239" fill="#89b4fa">██   ██║██╔══╝  ██╔══╝  ██╔══╝   </tspan>
+      <tspan x="760" y="268" fill="#89b4fa">╚█████╔╝███████╗██║     ██║      </tspan>
+      <tspan x="760" y="297" fill="#89b4fa"> ╚════╝ ╚══════╝╚═╝     ╚═╝      </tspan>
+
+```
+  <tspan x="760" y="345" fill="#cba6f7">       ██████╗████████╗██╗       </tspan>
+  <tspan x="760" y="374" fill="#cba6f7">      ██╔════╝╚══██╔══╝██║       </tspan>
+  <tspan x="760" y="403" fill="#cba6f7">      ██║        ██║   ██║       </tspan>
+  <tspan x="760" y="432" fill="#cba6f7">      ██║        ██║   ██║       </tspan>
+  <tspan x="760" y="461" fill="#cba6f7">      ╚██████╗   ██║   ███████╗  </tspan>
+  <tspan x="760" y="490" fill="#cba6f7">       ╚═════╝   ╚═╝   ╚══════╝  </tspan>
+</text>
+```
+
+  </g>
+
+  <rect x="54" y="581" width="1092" height="44" rx="0" fill="#313244"/>
+  <rect x="54" y="581" width="112" height="44" fill="#a6e3a1"/>
+  <rect x="166" y="581" width="248" height="44" fill="#45475a"/>
+  <rect x="414" y="581" width="210" height="44" fill="#89b4fa"/>
+  <rect x="624" y="581" width="208" height="44" fill="#cba6f7"/>
+
+  <text class="mono bold" font-size="15">
+    <tspan x="82" y="609" fill="#11111b">NORMAL</tspan>
+    <tspan x="190" y="609" fill="#cdd6f4">~/.profile/whoami.lua</tspan>
+    <tspan x="445" y="609" fill="#11111b">LEAD ENGINEER</tspan>
+    <tspan x="656" y="609" fill="#11111b">EVIDENCE FIRST</tspan>
+    <tspan x="870" y="609" fill="#cdd6f4">unix | mocha | Ln 13, Col 1</tspan>
+  </text>
+</svg>
